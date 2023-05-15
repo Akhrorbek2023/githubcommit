@@ -3,7 +3,102 @@
     padding: 0;
     
 }
+a{
+    text-decoration: none;
+}
 body{
     box-sizing: border-box;
     font-family: sans-serif;
+    
 }
+img{
+    object-fit: cover;
+}
+
+
+/* deadpool */
+.card__section{
+    margin: 100px 0;
+    
+}
+.card__box{
+    position: relative;
+  
+    width: 24%;
+    padding: 0px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px 0 rgb(236, 235, 235);
+   
+}
+.card__content{
+    padding-left: 16px;
+}
+.card__img{
+    margin-bottom: 7px;
+    width: 100%;
+}
+.card__btn{
+    padding: 9px 67px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.card__btn:hover{
+    background-color: #010F56;
+    color: #fff;
+}
+.card__title{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #010F56;  
+    margin-bottom: 17px;
+}
+.card__link{
+    padding: 5px 9px;
+    background: #FCCC43;
+    border-radius: 2px;
+    color: #000;
+    
+}
+.card__text{
+    margin-top: 19px;
+    margin-bottom: 25px;
+    
+}
+.card__text p {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.card__position img{
+    background-color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 2px;
+    padding: 5px;
+}
+.card__position span{
+    background-color: #fff;
+    padding: 0px 20px;
+    position: absolute;
+    border-radius: 2px;
+    top: 10px;
+    left: 200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FF027E;
+
+}
+.bg-coral{
+    background-color: coral;
+}
+.bg-fiolet{
+    background-color: #FF027E;
+}
+/* deadpool */
